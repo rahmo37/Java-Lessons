@@ -1,0 +1,32 @@
+Zarin Rafa,2021-2-60-064,CSE,Video editor,01533187140,AB+,zarinrafa123@gmail.com,5,34,6,true
+Abdul Mumeet Pathan,2022-1-60-267,CSE,Volunteer,01847373474,B+,mumeet623@gmail.com,8,30,9,true
+Obeadur Rahman,2021-1-60-345,EEE,Editor,01733187140,AB+,rahamn123@gmail.com,7,34,6,true
+Rafat Ali,2021-2-60-034,EEE,Video editor,01545487140,O+,ali4232@gmail.com,5,34,8,false
+Nazifa Nawar Labonno,2020-2-60-054,ECE,Video editor,01554687140,A+,labonno3421@gmail.com,2,23,3,true
+Zafrun Manat,2019-3-60-344,CSE,Video editor,0145434140,AB+,zafrun889@gmail.com,4,45,6,true
+Nafisa Naza,2018-3-60-304,EEE,Video editor,0154545140,AB+,nafa349@gmail.com,5,43,9,false
+Sidratul Muntaha,2017-2-60-234,ECE,Video editor,0189898998,AB+,muntaha545@gmail.com,1,23,6,false
+Syed Musayedul Hossain,2021-3-60-342,CSE,Video editor,0178877878,AB+,musayedul8237@gmail.com,9,64,7,false
+Mir Azmain Wasif,2019-2-60-134,EEE,Video editor,01786787140,AB+,azmain189@gmail.com,12,23,6,false
+Joy Biswas,2020-1-60-104,CSE,Video editor,017687880,AB+,biswas344@gmail.com,8,54,6,true
+Jubear Ahmed,2022-3-60-204,ECE,Video editor,0187787877,AB+,jubear675@gmail.com,11,32,6,false
+Uzma Borhan,2019-2-60-129,ECE,Video editor,01587587670,AB+,borhan878@gmail.com,9,56,7,true
+Zarin Tasnim,2018-1-60-456,CSE,Video editor,01533187140,A+,zarin876@gmail.com,3,56,8,true
+Farzana Polin,2019-1-60-098,EEE,Video editor,01533187140,B+,polin989@gmail.com,2,65,6,true
+Umme Roushan,2017-3-60-078,CSE,Video editor,01597140,AB-,roushan343@gmail.com,6,20,7,false
+Kakoli Modi,2018-2-60-234,ECE,Video editor,0177187140,AB+,kakoli789@gmail.com,6,45,8,false
+Apurba Roy,2022-2-60-094,ECE,Video editor,0156187140,A-,apurba898@gmail.com,7,65,3,false
+Kazi Sami,2021-3-60-087,EEE,Video editor,0189187140,O+,sami899@gmail.com,8,45,8,true
+Dolon Chapa,2018-3-60-038,CSE,Video editor,01763187140,O-,dolon89687@gmail.com,7,56,7,true
+Kazi Ome Ahmed,2017-1-60-124,CSE,Volunteer,016767373471,B+,kaziome401@gmail.com,2,34,6,false
+Ahmed Rifat,2019-1-60-098,CSE,Volunteer,01847373472,O+,aarifat402@gmail.com,3,54,7,false
+Parbon Kumar,2021-3-60-043,CSE,Volunteer,01947373473,AB+,parbonk403@gmail.com,4,45,8,false
+Kibria Talha,2022-1-60-067,CSE,Volunteer,01747373474,B-,talha404@gmail.com,5,65,7,false
+Jerin Shamsed,2020-2-60-254,CSE,Volunteer,01947373475,O+,jerin405@gmail.com,7,34,6,false
+Ahsan Habib,2022-1-60-414,CSE,Volunteer,01747383472,A+,ahsanhabib414@gmail.com,8,54,7,false
+Jakir hossain,2022-1-60-415,CSE,Volunteer,01947773473,O+,jakirhossain415@gmail.com,9,23,5,false
+Rafsan Shabab,2022-1-60-416,CSE,Volunteer,01847973472,A+,rafsanshabab416@gmail.com,2,67,8,false
+Joyonto Sharkar,2022-1-60-266,ECE,Video Editor,01714567891,O+,sharkar@gmail.com,7,0,0,false
+Faruk Rahman,2021-5-60-159,EEE,Video Editor,01814159789,AB+,faruk12@gmail.com,5,34,6,true
+Khadiza Rahman,2021-5-60-157,EEE,Volunteer,01818478656,B+,khadiza@gmail.com,8,12,5,false
+Zakir Hussain,2018-6-60-450,CSE,Video Editor,01718452159,B+,zakir129@gmail.com,12,105,16,true

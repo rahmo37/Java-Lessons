@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;encapsulation&apos; to &apos;encapsulation1&apos;&#x0D;&#x0A;- Original project: &apos;encapsulation&apos;&#x0D;&#x0A;- Original element: &apos;encapsulation/src/encapsulation&apos;&#x0D;&#x0A;- Renamed element: &apos;encapsulation/src/encapsulation1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;encapsulation&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;encapsulation" name="encapsulation1" qualified="false" references="true" stamp="1656043407554" textual="false" version="1.0"/>
+</session>

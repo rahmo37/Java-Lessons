@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Inheritence&apos; to &apos;Inheritence,MethodOverRide,Super,This&apos;&#x0D;&#x0A;- Original element: &apos;Inheritence&apos;&#x0D;&#x0A;- Renamed element: &apos;Inheritence&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Inheritence&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Inheritence" name="Inheritence,MethodOverRide,Super,This" references="true" stamp="1655706320873" version="1.0"/>
+</session>

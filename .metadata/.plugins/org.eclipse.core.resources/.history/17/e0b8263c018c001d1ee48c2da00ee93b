@@ -1,0 +1,195 @@
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.StringTokenizer;
+
+import javax.swing.JOptionPane;
+
+import design.LoginPage;
+import design.UserLoginDesign;
+import design.WelcomePage;
+import design.AdminLoginDesign;
+import design.AdminPanel;
+
+import java.util.Scanner;
+
+public class ClubManagmentSystem {
+
+	ArrayList<newlyRecruitedMember> nrMember = new ArrayList<>();
+	ArrayList<SenirGenMember> sgMember = new ArrayList<>();
+	ArrayList<Executive> eMember = new ArrayList<>();
+	ArrayList<SubExecutive> seMember = new ArrayList<>();
+	ArrayList<SoonToBePromoted> stpMember = new ArrayList<>();
+	ArrayList<String> idList = new ArrayList<>();
+	Scanner scan;
+	int counter = 0;
+
+	public void initialize() throws IOException {
+		loadMembers();
+		welcomePage();
+	}
+
+	public void loadMembers() throws IOException {
+		FileReader fr = new FileReader("Members.txt");
+		BufferedReader br = new BufferedReader(fr);
+		String n = "";
+		String id = "";
+		String dept = "";
+		String pos = "";
+		String pNum = "";
+		String bg = "";
+		String e = "";
+		int sem = 0;
+		int v = 0;
+		int noM = 0;
+		boolean admn = false;
+
+		String eachLine = "";
+		StringTokenizer st;
+		eachLine = br.readLine();
+
+		while (eachLine != null) {
+			st = new StringTokenizer(eachLine, ",");
+			while (st.hasMoreTokens()) {
+				n = st.nextToken();
+				id = st.nextToken();
+				dept = st.nextToken();
+				pos = st.nextToken();
+				pNum = st.nextToken();
+				bg = st.nextToken();
+				e = st.nextToken();
+				sem = Integer.parseInt(st.nextToken());
+				v = Integer.parseInt(st.nextToken());
+				noM = Integer.parseInt(st.nextToken());
+				admn = Boolean.parseBoolean(st.nextToken());
+
+				if (admn == true) {
+					idList.add(id);
+					System.out.println(idList);
+				}
+
+				if (noM < 4) {
+					nrMember.add(new newlyRecruitedMember(n, id, dept, pos, pNum, bg, e, sem, v, noM, admn));
+				} else if (v >= 30 && noM >= 4 && noM < 10) {
+					sgMember.add(new SenirGenMember(n, id, dept, pos, pNum, bg, e, sem, v, noM, admn));
+				} else if (v >= 50 && noM >= 10 && noM < 15) {
+					seMember.add(new SubExecutive(n, id, dept, pos, pNum, bg, e, sem, v, noM, admn));
+				} else if (v >= 70 && noM >= 15) {
+					eMember.add(new Executive(n, id, dept, pos, pNum, bg, e, sem, v, noM, admn));
+				} else {
+					stpMember.add(new SoonToBePromoted(n, id, dept, pos, pNum, bg, e, sem, v, noM, admn));
+				}
+				eachLine = br.readLine();
+			}
+//			System.out.println(n + " " + id + " " + dept + " " + pos + " " + pNum + " " + bg + " " + e + " " + sem + " "
+//					+ v + " " + noM + " " + admn);
+		}
+
+//		for (SoonToBePromoted s : stpMember) {
+//			System.out.println(s.name);
+//		}
+//		for (SenirGenMember s : sgMember) {
+//			System.out.println(s.name);
+//		}
+
+//		System.out.println(stpMember);
+//		System.out.println(seMember.get(0).name);
+//		System.out.println(eMember.get(0).name);
+		br.close();
+		System.out.println("Members data loaded!");
+	}
+
+	public void welcomePage() {
+		WelcomePage wp = new WelcomePage();
+		wp.welcomeMsg.setText("WELCOME TO EWU CLUB MANAGEMENT SYSTEM");
+		wp.adminButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				wp.setVisible(false);
+				try {
+					AdminLogin();
+				} catch (Exception e1) {
+				}
+			}
+		});
+		wp.userButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				wp.setVisible(false);
+				try {
+					UserLoginDesign uld = new UserLoginDesign();
+				} catch (Exception e1) {
+				}
+			}
+		});
+	}
+
+	public void AdminLogin() {
+		AdminLoginDesign ald = new AdminLoginDesign();
+		ald.loginButton.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				String user = ald.userNameText.getText();
+				String pass = new String(ald.passwordValue.getPassword());
+				try {
+					if (isValidCredentials(user, pass)) {
+						ald.frame.setVisible(false);
+						AdminPanel ap = new AdminPanel();
+					} else {
+						counter++;
+						System.out.println(counter);
+						JOptionPane.showMessageDialog(ald.frame, "WRONG INFORMATION!", "Warning!",
+								JOptionPane.WARNING_MESSAGE);
+						ald.userNameText.setText(null);
+						ald.passwordValue.setText(null);
+						if (counter == 3) {
+							JOptionPane.showMessageDialog(ald.frame, "TOO MANY ATTEMPTS! SYSTEM TERMINATING...",
+									"ATTEMPTS EXCEEDED!", JOptionPane.ERROR_MESSAGE);
+							System.exit(0);
+						}
+					}
+				} catch (Exception e1) {
+
+				}
+			}
+		});
+	}
+
+	// sub method of AdminLogin
+	public boolean isValidCredentials(String user, String pass) throws Exception {
+		FileReader fr = new FileReader("Password.txt");
+		BufferedReader br = new BufferedReader(fr);
+		String p;
+		p = br.readLine();
+
+		for (int i = 0; i < idList.size(); i++) {
+			if (user.equals(idList.get(i))) {
+				while (p != null) {
+					if (pass.equals(p)) {
+						return true;
+					}
+					p = br.readLine();
+				}
+				return false;
+			}
+		}
+		return false;
+	}
+
+	public void userLogin() {
+
+	}
+
+//	public void userLogin() {
+//		LoginPage lp = new LoginPage();
+//		lp.promptForIdLabel.setText("Enter you Id: ");
+//		if (HelperMethod.isValidId(lp.IdTextField.getText())) {
+//			lp.resultLabel.setText("Valid Id");
+//		} else {
+//			lp.resultLabel.setText("Invalid Id");
+//			lp.IdTextField.setText(null);
+//		}
+//	}
+}

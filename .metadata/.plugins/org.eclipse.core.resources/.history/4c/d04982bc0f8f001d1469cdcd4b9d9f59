@@ -1,0 +1,109 @@
+package design;
+
+import java.awt.Container;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.SwingConstants;
+
+/**
+ *
+ * @author ASUS
+ */
+public class AdminPanel extends JFrame {
+
+	// variable's declearation
+	private ImageIcon icon;
+	private JLabel heading;
+	private Container c;
+	private Font f;
+
+	private JButton noticeButton;
+	private JButton alumniButton;
+	private JButton memberButton;
+	private JButton eventButton;
+
+	// Default Constructor
+	public AdminPanel() {
+		setTitle("ADMIN PANEL");
+		setBounds(500, 100, 800, 800); // setsize + set location;
+		iniComp();
+		setResizable(false);
+		setVisible(true);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		System.out.println("Admin Panel");
+	}
+
+	public void iniComp() {
+		icon = new ImageIcon("download.jpg"); // icon
+		this.setIconImage(icon.getImage());
+		c = this.getContentPane();
+		f = new Font("Times New Roman", Font.HANGING_BASELINE, 20);
+		formatLabels();
+		getContentPane().setLayout(null);
+		c.add(heading);
+		formatButton();
+		c.add(noticeButton);
+		c.add(alumniButton);
+		c.add(memberButton);
+		c.add(eventButton);
+		
+		JLabel lblNewLabel = new JLabel("Add Remove Search for a Member "
+				+ "\nOr Approve a Pending Request");
+		lblNewLabel.setBounds(445, 398, 339, 58);
+		getContentPane().add(lblNewLabel);
+	}
+
+	public void formatLabels() {
+		heading = new JLabel();
+		heading.setBounds(220, 60, 500, 20);
+		heading.setText("WELCOME TO ADMIN PANEL");
+		heading.setFont(f);
+	}
+
+	public void formatButton() {
+		noticeButton = new JButton("Create update or Remove Notice");
+		noticeButton.setVerticalTextPosition(JButton.TOP);
+		noticeButton.setHorizontalTextPosition(JButton.LEFT);
+		noticeButton.setOpaque(true);
+		noticeButton.setIcon(new ImageIcon("userIcon.jpg"));
+		noticeButton.setBounds(80, 200, 200, 206);
+		noticeButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Notice");
+			}
+		});
+
+		alumniButton = new JButton(new ImageIcon("admin.jpg"));
+		alumniButton.setHorizontalTextPosition(SwingConstants.CENTER);
+		alumniButton.setVerticalTextPosition(SwingConstants.BOTTOM);
+		alumniButton.setOpaque(true);
+		alumniButton.setBounds(500, 200, 200, 206);
+		alumniButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Alumni");
+			}
+		});
+
+		memberButton = new JButton(new ImageIcon("userIcon.jpg"));
+		memberButton.setBounds(80, 500, 200, 200);
+		memberButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Member");
+			}
+		});
+
+		eventButton = new JButton(new ImageIcon("userIcon.jpg"));
+		eventButton.setBounds(500, 500, 200, 200);
+		eventButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Event");
+			}
+		});
+	}
+}

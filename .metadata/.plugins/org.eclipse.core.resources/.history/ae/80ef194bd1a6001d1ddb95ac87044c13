@@ -1,0 +1,37 @@
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import java.awt.BorderLayout;
+import javax.swing.JButton;
+
+public class Map extends JFrame {
+	GoogleApi gApi = new GoogleApi();
+	String location = "Brooklyn Bridge";
+	JLabel gMap;
+	private JTextField textField;
+
+	public Map() {
+		gApi.downloadMap(location);
+		gMap = new JLabel(gApi.getMap(location));
+		gMap.setBounds(0, 0, 607, 584);
+		gApi.fileDelete(location);
+		setBounds(500, 100, 623, 623);
+		getContentPane().setLayout(null);
+		
+		JButton btnNewButton = new JButton("Search");
+		btnNewButton.setBounds(294, 78, 69, 23);
+		getContentPane().add(btnNewButton);
+		
+		JLabel lblNewLabel = new JLabel("Enter Location");
+		lblNewLabel.setBounds(184, 37, 87, 33);
+		getContentPane().add(lblNewLabel);
+		
+		textField = new JTextField();
+		textField.setBounds(284, 39, 110, 28);
+		getContentPane().add(textField);
+		textField.setColumns(10);
+		getContentPane().add(gMap);
+		setTitle("Google Maps");
+		setVisible(true);
+	}
+}

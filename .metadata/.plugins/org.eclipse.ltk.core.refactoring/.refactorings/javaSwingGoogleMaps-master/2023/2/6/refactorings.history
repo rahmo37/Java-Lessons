@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;javaSwingGoogleMaps-master&apos;&#x0D;&#x0A;- Original project: &apos;javaSwingGoogleMaps-master&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     commons-logging-1.1.3.jar&#x0D;&#x0A;     jxmapviewer2-2.5.jar" description="Delete elements" element1="javaSwingGoogleMaps-master/src/gmap/jxmapviewer2-2.5.jar" element2="javaSwingGoogleMaps-master/src/gmap/commons-logging-1.1.3.jar" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="2" stamp="1675754069500" subPackages="false" version="1.0"/>
+</session>

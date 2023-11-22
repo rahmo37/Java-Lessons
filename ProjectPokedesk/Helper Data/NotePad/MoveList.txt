@@ -1,0 +1,1128 @@
+Bulbasaur
+Growl
+Tackle
+Vine Whip
+Growth
+Leech Seed
+Razor Leaf
+Poison Powder
+Sleep Powder
+Seed Bomb
+Take Down
+Sweet Scent
+Synthesis
+Worry Seed
+Double-Edge
+Solar Beam
+
+
+	Ivysaur
+1	Growl	       NORMAL	Status	—	100
+1	Growth	       NORMAL	Status	—	—
+1	Tackle	       NORMAL	Physical	40	100
+1	Vine Whip	GRASS	Physical	45	100
+9	Leech Seed	GRASS	Status	—	90
+12	Razor Leaf	GRASS	Physical	55	95
+15	Poison Powder	POISON	Status	—	75
+15	Sleep Powder	GRASS	Status	—	75
+20	Seed Bomb	GRASS	Physical	80	100
+25	Take Down	NORMAL	Physical	90	85
+30	Sweet Scent	NORMAL	Status	—	100
+35	Synthesis	GRASS	Status	—	—
+40	Worry Seed	GRASS	Status	—	100
+45	Double-Edge	NORMAL	Physical	120	100
+50	Solar Beam
+
+	Venusaur
+1	Growl	NORMAL	Status	—	100
+1	Growth	NORMAL	Status	—	—
+1	Petal Blizzard	GRASS	Physical	90	100
+1	Petal Dance	GRASS	Special	120	100
+1	Tackle	NORMAL	Physical	40	100
+1	Vine Whip	GRASS	Physical	45	100
+9	Leech Seed	GRASS	Status	—	90
+12	Razor Leaf	GRASS	Physical	55	95
+15	Poison Powder	POISON	Status	—	75
+15	Sleep Powder	GRASS	Status	—	75
+20	Seed Bomb	GRASS	Physical	80	100
+25	Take Down	NORMAL	Physical	90	85
+30	Sweet Scent	NORMAL	Status	—	100
+37	Synthesis	GRASS	Status	—	—
+44	Worry Seed	GRASS	Status	—	100
+51	Double-Edge	NORMAL	Physical	120	100
+58	Solar Beam
+
+	Charmander
+1	Growl	NORMAL	Status	—	100
+1	Scratch	NORMAL	Physical	40	100
+4	Ember	FIRE	Special	40	100
+8	Smokescreen	NORMAL	Status	—	100
+12	Dragon Breath	DRAGON	Special	60	100
+17	Fire Fang	FIRE	Physical	65	95
+20	Slash	NORMAL	Physical	70	100
+24	Flamethrower	FIRE	Special	90	100
+28	Scary Face	NORMAL	Status	—	100
+32	Fire Spin	FIRE	Special	35	85
+36	Inferno	FIRE	Special	100	50
+40	Flare Blitz	FIRE	Physical	120	100
+
+
+	Charmeleon
+1	Ember	FIRE	Special	40	100
+1	Growl	NORMAL	Status	—	100
+1	Scratch	NORMAL	Physical	40	100
+1	Smokescreen	NORMAL	Status	—	100
+12	Dragon Breath	DRAGON	Special	60	100
+19	Fire Fang	FIRE	Physical	65	95
+24	Slash	NORMAL	Physical	70	100
+30	Flamethrower	FIRE	Special	90	100
+37	Scary Face	NORMAL	Status	—	100
+42	Fire Spin	FIRE	Special	35	85
+48	Inferno	FIRE	Special	100	50
+54	Flare Blitz
+
+	Charizard
+1	Air Slash	FLYING	Special	75	95
+1	Dragon Claw	DRAGON	Physical	80	100
+1	Ember	FIRE	Special	40	100
+1	Growl	NORMAL	Status	—	100
+1	Heat Wave	FIRE	Special	95	90
+1	Scratch	NORMAL	Physical	40	100
+1	Smokescreen	NORMAL	Status	—	100
+12	Dragon Breath	DRAGON	Special	60	100
+19	Fire Fang	FIRE	Physical	65	95
+24	Slash	NORMAL	Physical	70	100
+30	Flamethrower	FIRE	Special	90	100
+39	Scary Face	NORMAL	Status	—	100
+46	Fire Spin	FIRE	Special	35	85
+54	Inferno	FIRE	Special	100	50
+62	Flare Blitz	FIRE	Physical	120	100
+
+	Squirtle
+1	Tackle	NORMAL	Physical	40	100
+1	Tail Whip	NORMAL	Status	—	100
+3	Water Gun	WATER	Special	40	100
+6	Withdraw	WATER	Status	—	—
+9	Rapid Spin	NORMAL	Physical	50	100
+12	Bite	DARK	Physical	60	100
+15	Water Pulse	WATER	Special	60	100
+18	Protect	NORMAL	Status	—	—
+21	Rain Dance	WATER	Status	—	—
+24	Aqua Tail	WATER	Physical	90	90
+27	Shell Smash	NORMAL	Status	—	—
+30	Iron Defense	STEEL	Status	—	—
+33	Hydro Pump	WATER	Special	110	80
+36	Skull Bash	NORMAL	Physical	130	100
+
+	Wartortle
+1	Tackle	NORMAL	Physical	40	100
+1	Tail Whip	NORMAL	Status	—	100
+1	Water Gun	WATER	Special	40	100
+1	Withdraw	WATER	Status	—	—
+9	Rapid Spin	NORMAL	Physical	50	100
+12	Bite	DARK	Physical	60	100
+15	Water Pulse	WATER	Special	60	100
+20	Protect	NORMAL	Status	—	—
+25	Rain Dance	WATER	Status	—	—
+30	Aqua Tail	WATER	Physical	90	90
+35	Shell Smash	NORMAL	Status	—	—
+40	Iron Defense	STEEL	Status	—	—
+45	Hydro Pump	WATER	Special	110	80
+50	Skull Bash	NORMAL	Physical	130	100
+
+
+
+	Rattata	Tackle	Tail Whip	Quick Attack	Focus Energy	Bite	Laser Focus	Take Down	Assurance	Crunch	Sucker Punch	Super Fang	Double-Edge	Endeavor
+
+	Blastoise
+1	Flash Cannon	STEEL	Special	80	100
+1	Tackle	NORMAL	Physical	40	100
+1	Tail Whip	NORMAL	Status	—	100
+1	Water Gun	WATER	Special	40	100
+1	Withdraw	WATER	Status	—	—
+9	Rapid Spin	NORMAL	Physical	50	100
+12	Bite	DARK	Physical	60	100
+15	Water Pulse	WATER	Special	60	100
+20	Protect	NORMAL	Status	—	—
+25	Rain Dance	WATER	Status	—	—
+30	Aqua Tail	WATER	Physical	90	90
+35	Shell Smash	NORMAL	Status	—	—
+42	Iron Defense	STEEL	Status	—	—
+49	Hydro Pump	WATER	Special	110	80
+56	Skull Bash	NORMAL	Physical	130	100
+
+	Caterpie
+1	String Shot	BUG	Status	—	95
+1	Tackle	NORMAL	Physical	40	100
+9	Bug Bite
+
+	Metapod
+1	Harden	NORMAL	Status	—	—
+
+	Butterfree
+1	Bug Bite	BUG	Physical	60	100
+1	Gust	FLYING	Special	40	100
+1	Harden	NORMAL	Status	—	—
+1	String Shot	BUG	Status	—	95
+1	Tackle	NORMAL	Physical	40	100
+4	Supersonic	NORMAL	Status	—	55
+8	Confusion	PSYCHIC	Special	50	100
+12	Poison Powder	POISON	Status	—	75
+12	Sleep Powder	GRASS	Status	—	75
+12	Stun Spore	GRASS	Status	—	75
+16	Psybeam	PSYCHIC	Special	65	100
+20	Whirlwind	NORMAL	Status	—	—
+24	Air Slash	FLYING	Special	75	95
+28	Safeguard	NORMAL	Status	—	—
+32	Bug Buzz	BUG	Special	90	100
+36	Tailwind	FLYING	Status	—	—
+40	Rage Powder	BUG	Status	—	—
+44	Quiver Dance	BUG	Status	—	—
+
+	Weedle
+1	Poison Sting	POISON	Physical	15	100
+1	String Shot	BUG	Status	—	95
+9	Bug Bite
+
+	Kakuna
+1	Harden	NORMAL	Status	—	—
+
+	Beedrill
+1	Bug Bite	BUG	Physical	60	100
+1	Fury Attack	NORMAL	Physical	15	85
+1	Harden	NORMAL	Status	—	—
+1	Poison Sting	POISON	Physical	15	100
+1	String Shot	BUG	Status	—	95
+11	Fury Cutter	BUG	Physical	40	95
+14	Laser Focus	NORMAL	Status	—	—
+17	Poison Sting	POISON	Physical	15	100
+20	Focus Energy	NORMAL	Status	—	—
+23	Venoshock	POISON	Special	65	100
+26	Assurance	DARK	Physical	60	100
+29	Toxic Spikes	POISON	Status	—	—
+32	Pin Missile	BUG	Physical	25	95
+35	Poison Jab	POISON	Physical	80	100
+38	Agility	PSYCHIC	Status	—	—
+41	Endeavor	NORMAL	Physical	—	100
+44	Fell Stinger
+
+	Pidgey
+1	Tackle	NORMAL	Physical	40	100
+5	Sand Attack	GROUND	Status	—	100
+9	Gust	FLYING	Special	40	100
+13	Quick Attack	NORMAL	Physical	40	100
+17	Whirlwind	NORMAL	Status	—	—
+21	Twister	DRAGON	Special	40	100
+25	Feather Dance	FLYING	Status	—	100
+29	Agility	PSYCHIC	Status	—	—
+33	Wing Attack	FLYING	Physical	60	100
+37	Roost	FLYING	Status	—	—
+41	Tailwind	FLYING	Status	—	—
+45	Aerial Ace	FLYING	Physical	60	∞
+49	Air Slash	FLYING	Special	75	95
+53	Hurricane	FLYING	Special	110	70
+
+	Pidgeotto
+1	Gust	FLYING	Special	40	100
+1	Sand Attack	GROUND	Status	—	100
+1	Tackle	NORMAL	Physical	40	100
+5	Sand Attack	GROUND	Status	—	100
+9	Gust	FLYING	Special	40	100
+13	Quick Attack	NORMAL	Physical	40	100
+17	Whirlwind	NORMAL	Status	—	—
+22	Twister	DRAGON	Special	40	100
+27	Feather Dance	FLYING	Status	—	100
+32	Agility	PSYCHIC	Status	—	—
+37	Wing Attack	FLYING	Physical	60	100
+42	Roost	FLYING	Status	—	—
+47	Tailwind	FLYING	Status	—	—
+52	Aerial Ace	FLYING	Physical	60	∞
+57	Air Slash	FLYING	Special	75	95
+62	Hurricane	FLYING	Special	110	70
+
+	pidgeot
+1	Gust	FLYING	Special	40	100
+1	Hurricane	FLYING	Special	110	70
+1	Quick Attack	NORMAL	Physical	40	100
+1	Sand Attack	GROUND	Status	—	100
+1	Tackle	NORMAL	Physical	40	100
+5	Sand Attack	GROUND	Status	—	100
+9	Gust	FLYING	Special	40	100
+13	Quick Attack	NORMAL	Physical	40	100
+17	Whirlwind	NORMAL	Status	—	—
+22	Twister	DRAGON	Special	40	100
+27	Feather Dance	FLYING	Status	—	100
+32	Agility	PSYCHIC	Status	—	—
+38	Wing Attack	FLYING	Physical	60	100
+44	Roost	FLYING	Status	—	—
+50	Tailwind	FLYING	Status	—	—
+56	Aerial Ace	FLYING	Physical	60	∞
+62	Air Slash	FLYING	Special	75	95
+68	Hurricane
+
+	Rattata
+1	Tackle	NORMAL	Physical	40	100
+1	Tail Whip	NORMAL	Status	—	100
+4	Quick Attack	NORMAL	Physical	40	100
+7	Focus Energy	NORMAL	Status	—	—
+10	Bite	DARK	Physical	60	100
+13	Laser Focus	NORMAL	Status	—	—
+16	Take Down	NORMAL	Physical	90	85
+19	Assurance	DARK	Physical	60	100
+22	Crunch	DARK	Physical	80	100
+25	Sucker Punch	DARK	Physical	70	100
+28	Super Fang	NORMAL	Physical	—	90
+31	Double-Edge	NORMAL	Physical	120	100
+34	Endeavor	NORMAL	Physical	—	100
+
+
+	Raticate
+1	Focus Energy	NORMAL	Status	—	—
+1	Quick Attack	NORMAL	Physical	40	100
+1	Scary Face	NORMAL	Status	—	100
+1	Swords Dance	NORMAL	Status	—	—
+1	Tackle	NORMAL	Physical	40	100
+1	Tail Whip	NORMAL	Status	—	100
+4	Quick Attack	NORMAL	Physical	40	100
+7	Focus Energy	NORMAL	Status	—	—
+10	Bite	DARK	Physical	60	100
+13	Laser Focus	NORMAL	Status	—	—
+16	Take Down	NORMAL	Physical	90	85
+19	Assurance	DARK	Physical	60	100
+24	Crunch	DARK	Physical	80	100
+29	Sucker Punch	DARK	Physical	70	100
+34	Super Fang	NORMAL	Physical	—	90
+39	Double-Edge	NORMAL	Physical	120	100
+44	Endeavor
+
+
+	Spearow
+1	Growl	NORMAL	Status	—	100
+1	Peck	FLYING	Physical	35	100
+4	Leer	NORMAL	Status	—	100
+8	Assurance	DARK	Physical	60	100
+11	Fury Attack	NORMAL	Physical	15	85
+15	Aerial Ace	FLYING	Physical	60	∞
+18	Wing Attack	FLYING	Physical	60	100
+22	Take Down	NORMAL	Physical	90	85
+25	Agility	PSYCHIC	Status	—	—
+29	Focus Energy	NORMAL	Status	—	—
+32	Roost	FLYING	Status	—	—
+36	Drill Peck	FLYING	Physical	80	100
+
+
+	Fearow
+1	Drill Run	GROUND	Physical	80	95
+1	Growl	NORMAL	Status	—	100
+1	Leer	NORMAL	Status	—	100
+1	Peck	FLYING	Physical	35	100
+1	Pluck	FLYING	Physical	60	100
+4	Leer	NORMAL	Status	—	100
+8	Assurance	DARK	Physical	60	100
+11	Fury Attack	NORMAL	Physical	15	85
+15	Aerial Ace	FLYING	Physical	60	∞
+18	Wing Attack	FLYING	Physical	60	100
+23	Take Down	NORMAL	Physical	90	85
+27	Agility	PSYCHIC	Status	—	—
+32	Focus Energy	NORMAL	Status	—	—
+36	Roost	FLYING	Status	—	—
+41	Drill Peck	FLYING	Physical	80	100
+45	Drill Run	GROUND	Physical	80	95
+
+
+	Ekans
+1	Leer	NORMAL	Status	—	100
+1	Wrap	NORMAL	Physical	15	90
+4	Poison Sting	POISON	Physical	15	100
+9	Bite	DARK	Physical	60	100
+12	Glare	NORMAL	Status	—	100
+17	Screech	NORMAL	Status	—	85
+20	Acid	POISON	Special	40	100
+25	Spit Up	NORMAL	Special	—	100
+25	Stockpile	NORMAL	Status	—	—
+25	Swallow	NORMAL	Status	—	—
+28	Acid Spray	POISON	Special	40	100
+33	Sludge Bomb	POISON	Special	90	100
+36	Gastro Acid	POISON	Status	—	100
+38	Belch	POISON	Special	120	90
+41	Haze	ICE	Status	—	—
+44	Coil	POISON	Status	—	—
+49	Gunk Shot
+
+	Arbok
+1	Bite	DARK	Physical	60	100
+1	Crunch	DARK	Physical	80	100
+1	Fire Fang	FIRE	Physical	65	95
+1	Ice Fang	ICE	Physical	65	95
+1	Leer	NORMAL	Status	—	100
+1	Poison Sting	POISON	Physical	15	100
+1	Thunder Fang	ELECTRIC	Physical	65	95
+1	Wrap	NORMAL	Physical	15	90
+4	Poison Sting	POISON	Physical	15	100
+9	Bite	DARK	Physical	60	100
+12	Glare	NORMAL	Status	—	100
+17	Screech	NORMAL	Status	—	85
+20	Acid	POISON	Special	40	100
+27	Spit Up	NORMAL	Special	—	100
+27	Stockpile	NORMAL	Status	—	—
+27	Swallow	NORMAL	Status	—	—
+32	Acid Spray	POISON	Special	40	100
+39	Sludge Bomb	POISON	Special	90	100
+44	Gastro Acid	POISON	Status	—	100
+48	Belch	POISON	Special	120	90
+51	Haze	ICE	Status	—	—
+56	Coil	POISON	Status	—	—
+63	Gunk Shot	POISON	Physical	120	80
+
+Pikachu
+1	Charm	FAIRY	Status	—	100
+1	Growl	NORMAL	Status	—	100
+1	Nasty Plot	DARK	Status	—	—
+1	Nuzzle	ELECTRIC	Physical	20	100
+1	Play Nice	NORMAL	Status	—	—
+1	Quick Attack	NORMAL	Physical	40	100
+1	Sweet Kiss	FAIRY	Status	—	75
+1	Tail Whip	NORMAL	Status	—	100
+1	Thunder Shock	ELECTRIC	Special	40	100
+4	Thunder Wave	ELECTRIC	Status	—	90
+8	Double Team	NORMAL	Status	—	—
+12	Electro Ball	ELECTRIC	Special	—	100
+16	Feint	NORMAL	Physical	30	100
+20	Spark	ELECTRIC	Physical	65	100
+24	Agility	PSYCHIC	Status	—	—
+28	Slam	NORMAL	Physical	80	75
+32	Discharge	ELECTRIC	Special	80	100
+36	Thunderbolt	ELECTRIC	Special	90	100
+40	Light Screen	PSYCHIC	Status	—	—
+44	Thunder
+
+
+	Raichu
+1	Agility	PSYCHIC	Status	—	—
+1	Charm	FAIRY	Status	—	100
+1	Discharge	ELECTRIC	Special	80	100
+1	Double Team	NORMAL	Status	—	—
+1	Electro Ball	ELECTRIC	Special	—	100
+1	Feint	NORMAL	Physical	30	100
+1	Growl	NORMAL	Status	—	100
+1	Light Screen	PSYCHIC	Status	—	—
+1	Nasty Plot	DARK	Status	—	—
+1	Nuzzle	ELECTRIC	Physical	20	100
+1	Play Nice	NORMAL	Status	—	—
+1	Quick Attack	NORMAL	Physical	40	100
+1	Slam	NORMAL	Physical	80	75
+1	Spark	ELECTRIC	Physical	65	100
+1	Sweet Kiss	FAIRY	Status	—	75
+1	Tail Whip	NORMAL	Status	—	100
+1	Thunder	ELECTRIC	Special	110	70
+1	Thunder Punch	ELECTRIC	Physical	75	100
+1	Thunder Shock	ELECTRIC	Special	40	100
+1	Thunder Wave	ELECTRIC	Status	—	90
+1	Thunderbolt
+
+
+	Sandshrew
+1	Defense Curl	NORMAL	Status	—	—
+1	Scratch	NORMAL	Physical	40	100
+3	Poison Sting	POISON	Physical	15	100
+6	Sand Attack	GROUND	Status	—	100
+9	Rollout	ROCK	Physical	30	90
+12	Fury Cutter	BUG	Physical	40	95
+15	Rapid Spin	NORMAL	Physical	50	100
+18	Bulldoze	GROUND	Physical	60	100
+21	Swift	NORMAL	Special	60	∞
+24	Fury Swipes	NORMAL	Physical	18	80
+27	Agility	PSYCHIC	Status	—	—
+30	Slash	NORMAL	Physical	70	100
+33	Dig	GROUND	Physical	80	100
+36	Gyro Ball	STEEL	Physical	—	100
+39	Swords Dance	NORMAL	Status	—	—
+42	Sandstorm	ROCK	Status	—	—
+45	Earthquake
+
+	Sandslash
+1	Agility	PSYCHIC	Status	—	—
+1	Crush Claw	NORMAL	Physical	75	95
+1	Defense Curl	NORMAL	Status	—	—
+1	Poison Sting	POISON	Physical	15	100
+1	Sand Attack	GROUND	Status	—	100
+1	Scratch	NORMAL	Physical	40	100
+9	Rollout	ROCK	Physical	30	90
+12	Fury Cutter	BUG	Physical	40	95
+15	Rapid Spin	NORMAL	Physical	50	100
+18	Bulldoze	GROUND	Physical	60	100
+21	Swift	NORMAL	Special	60	∞
+26	Fury Swipes	NORMAL	Physical	18	80
+31	Sand Tomb	GROUND	Physical	35	85
+36	Slash	NORMAL	Physical	70	100
+41	Dig	GROUND	Physical	80	100
+46	Gyro Ball	STEEL	Physical	—	100
+51	Swords Dance	NORMAL	Status	—	—
+56	Sandstorm	ROCK	Status	—	—
+61	Earthquake	GROUND	Physical	100	100
+
+
+	Nidoran ♀
+1	Growl	NORMAL	Status	—	100
+1	Poison Sting	POISON	Physical	15	100
+5	Scratch	NORMAL	Physical	40	100
+10	Tail Whip	NORMAL	Status	—	100
+15	Fury Swipes	NORMAL	Physical	18	80
+20	Toxic Spikes	POISON	Status	—	—
+25	Double Kick	FIGHTING	Physical	30	100
+30	Bite	DARK	Physical	60	100
+35	Helping Hand	NORMAL	Status	—	—
+40	Toxic	POISON	Status	—	90
+45	Flatter	DARK	Status	—	100
+50	Crunch	DARK	Physical	80	100
+55	Earth Power	GROUND	Special	90	100
+
+
+	Nidorina
+1	Growl	NORMAL	Status	—	100
+1	Poison Sting	POISON	Physical	15	100
+1	Scratch	NORMAL	Physical	40	100
+1	Tail Whip	NORMAL	Status	—	100
+15	Fury Swipes	NORMAL	Physical	18	80
+22	Toxic Spikes	POISON	Status	—	—
+29	Double Kick	FIGHTING	Physical	30	100
+36	Bite	DARK	Physical	60	100
+43	Helping Hand	NORMAL	Status	—	—
+50	Toxic	POISON	Status	—	90
+57	Flatter	DARK	Status	—	100
+64	Crunch	DARK	Physical	80	100
+71	Earth Power	GROUND	Special	90	100
+
+Nidoqueen
+Nidoran ♂
+Nidorino
+Nidoking
+Clefairy
+Clefable
+Vulpix
+Ninetales
+Jigglypuff
+Wigglytuff
+Zubat
+Golbat
+Oddish
+Gloom
+Vileplume
+Paras
+Parasect
+Venonat
+Venomoth
+Diglett
+Dugtrio
+Meowth
+Persian
+Psyduck
+Golduck
+Mankey
+Primeape
+Growlithe
+Arcanine
+Poliwag
+Poliwhirl
+Poliwrath
+Abra
+Kadabra
+Alakazam
+Machop
+Machoke
+Machamp
+Bellsprout
+Weepinbell
+Victreebel
+Tentacool
+Tentacruel
+Geodude
+Graveler
+Golem
+Ponyta
+Rapidash
+Slowpoke
+Slowbro
+Magnemite
+Magneton
+Farfetch'd
+Doduo
+Dodrio
+Seel
+Dewgong
+Grimer
+Muk
+Shellder
+Cloyster
+Gastly
+Haunter
+Gengar
+Onix
+Drowzee
+Hypno
+Krabby
+Kingler
+Voltorb
+Electrode
+Exeggcute
+Exeggutor
+Cubone
+Marowak
+Hitmonlee
+Hitmonchan
+Lickitung
+Koffing
+Weezing
+Rhyhorn
+Rhydon
+Chansey
+Tangela
+Kangaskhan
+Horsea
+Seadra
+Goldeen
+Seaking
+Staryu
+Starmie
+Mr. Mime
+Scyther
+Jynx
+Electabuzz
+Magmar
+Pinsir
+Tauros
+Magikarp
+Gyarados
+Lapras
+Ditto
+Eevee
+Vaporeon
+Jolteon
+Flareon
+Porygon
+Omanyte
+Omastar
+Kabuto
+Kabutops
+Aerodactyl
+Snorlax
+Articuno
+Zapdos
+Moltres
+Dratini
+Dragonair
+Dragonite
+Mewtwo
+Mew
+Chikorita
+Bayleef
+Meganium
+Cyndaquil
+Quilava
+Typhlosion
+Totodile
+Croconaw
+Feraligatr
+Sentret
+Furret
+Hoothoot
+Noctowl
+Ledyba
+Ledian
+Spinarak
+Ariados
+Crobat
+Chinchou
+Lanturn
+Pichu
+Cleffa
+Igglybuff
+Togepi
+Togetic
+Natu
+Xatu
+Mareep
+Flaaffy
+Ampharos
+Bellossom
+Marill
+Azumarill
+Sudowoodo
+Politoed
+Hoppip
+Skiploom
+Jumpluff
+Aipom
+Sunkern
+Sunflora
+Yanma
+Wooper
+Quagsire
+Espeon
+Umbreon
+Murkrow
+Slowking
+Misdreavus
+Unown
+Wobbuffet
+Girafarig
+Pineco
+Forretress
+Dunsparce
+Gligar
+Steelix
+Snubbull
+Granbull
+Qwilfish
+Scizor
+Shuckle
+Heracross
+Sneasel
+Teddiursa
+Ursaring
+Slugma
+Magcargo
+Swinub
+Piloswine
+Corsola
+Remoraid
+Octillery
+Delibird
+Mantine
+Skarmory
+Houndour
+Houndoom
+Kingdra
+Phanpy
+Donphan
+Porygon2
+Stantler
+Smeargle
+Tyrogue
+Hitmontop
+Smoochum
+Elekid
+Magby
+Miltank
+Blissey
+Raikou
+Entei
+Suicune
+Larvitar
+Pupitar
+Tyranitar
+Lugia
+Ho-oh
+Celebi
+Treecko
+Grovyle
+Sceptile
+Torchic
+Combusken
+Blaziken
+Mudkip
+Marshtomp
+Swampert
+Poochyena
+Mightyena
+Zigzagoon
+Linoone
+Wurmple
+Silcoon
+Beautifly
+Cascoon
+Dustox
+Lotad
+Lombre
+Ludicolo
+Seedot
+Nuzleaf
+Shiftry
+Taillow
+Swellow
+Wingull
+Pelipper
+Ralts
+Kirlia
+Gardevoir
+Surskit
+Masquerain
+Shroomish
+Breloom
+Slakoth
+Vigoroth
+Slaking
+Nincada
+Ninjask
+Shedinja
+Whismur
+Loudred
+Exploud
+Makuhita
+Hariyama
+Azurill
+Nosepass
+Skitty
+Delcatty
+Sableye
+Mawile
+Aron
+Lairon
+Aggron
+Meditite
+Medicham
+Electrike
+Manectric
+Plusle
+Minun
+Volbeat
+Illumise
+Roselia
+Gulpin
+Swalot
+Carvanha
+Sharpedo
+Wailmer
+Wailord
+Numel
+Camerupt
+Torkoal
+Spoink
+Grumpig
+Spinda
+Trapinch
+Vibrava
+Flygon
+Cacnea
+Cacturne
+Swablu
+Altaria
+Zangoose
+Seviper
+Lunatone
+Solrock
+Barboach
+Whiscash
+Corphish
+Crawdaunt
+Baltoy
+Claydol
+Lileep
+Cradily
+Anorith
+Armaldo
+Feebas
+Milotic
+Castform
+Kecleon
+Shuppet
+Banette
+Duskull
+Dusclops
+Tropius
+Chimecho
+Absol
+Wynaut
+Snorunt
+Glalie
+Spheal
+Sealeo
+Walrein
+Clamperl
+Huntail
+Gorebyss
+Relicanth
+Luvdisc
+Bagon
+Shelgon
+Salamence
+Beldum
+Metang
+Metagross
+Regirock
+Regice
+Registeel
+Latias
+Latios
+Kyogre
+Groudon
+Rayquaza
+Jirachi
+Deoxys (N)
+Deoxys (A)
+Deoxys (D)
+Deoxys (S)
+Turtwig
+Grotle
+Torterra
+Chimchar
+Monferno
+Infernape
+Piplup
+Prinplup
+Empoleon
+Starly
+Staravia
+Staraptor
+Bidoof
+Bibarel
+Kricketot
+Kricketune
+Shinx
+Luxio
+Luxray
+Budew
+Roserade
+Cranidos
+Rampardos
+Shieldon
+Bastiodon
+Burmy
+Wormadam (P)
+Wormadam (S)
+Wormadam (T)
+Mothim
+Combee
+Vespiquen
+Pachirisu
+Buizel
+Floatzel
+Cherubi
+Cherrim
+Shellos
+Gastrodon
+Ambipom
+Drifloon
+Drifblim
+Buneary
+Lopunny
+Mismagius
+Honchkrow
+Glameow
+Purugly
+Chingling
+Stunky
+Skuntank
+Bronzor
+Bronzong
+Bonsly
+Mime Jr.
+Happiny
+Chatot
+Spiritomb
+Gible
+Gabite
+Garchomp
+Munchlax
+Riolu
+Lucario
+Hippopotas
+Hippowdon
+Skorupi
+Drapion
+Croagunk
+Toxicroak
+Carnivine
+Finneon
+Lumineon
+Mantyke
+Snover
+Abomasnow
+Weavile
+Magnezone
+Lickilicky
+Rhyperior
+Tangrowth
+Electivire
+Magmortar
+Togekiss
+Yanmega
+Leafeon
+Glaceon
+Gliscor
+Mamoswine
+Porygon-Z
+Gallade
+Probopass
+Dusknoir
+Froslass
+Rotom
+Rotom (Heat)
+Rotom (Wash)
+Rotom (Frost)
+Rotom (Spin)
+Rotom (Cut)
+Uxie
+Mesprit
+Azelf
+Dialga
+Palkia
+Heatran
+Regigigas
+Giratina
+Giratina (O)
+Cresselia
+Phione
+Manaphy
+Darkrai
+Shaymin
+Shaymin (S)
+Arceus
+Victini
+Snivy
+Servine
+Serperior
+Tepig
+Pignite
+Emboar
+Oshawott
+Dewott
+Samurott
+Patrat
+Watchog
+Lillipup
+Herdier
+Stoutland
+Purrloin
+Liepard
+Pansage
+Simisage
+Pansear
+Simisear
+Panpour
+Simipour
+Munna
+Musharna
+Pidove
+Tranquill
+Unfezant
+Blitzle
+Zebstrika
+Roggenrola
+Boldore
+Gigalith
+Woobat
+Swoobat
+Drilbur
+Excadrill
+Audino
+Timburr
+Gurdurr
+Conkeldurr
+Tympole
+Palpitoad
+Seismitoad
+Throh
+Sawk
+Sewaddle
+Swadloon
+Leavanny
+Venipede
+Whirlipede
+Scolipede
+Cottonee
+Whimsicott
+Petilil
+Lilligant
+Basculin
+Sandile
+Krokorok
+Krookodile
+Darumaka
+Darmanitan
+Darmanitan (Z)
+Maractus
+Dwebble
+Crustle
+Scraggy
+Scrafty
+Sigilyph
+Yamask
+Cofagrigus
+Tirtouga
+Carracosta
+Archen
+Archeops
+Trubbish
+Garbodor
+Zorua
+Zoroark
+Minccino
+Ciccino
+Gothita
+Gothorita
+Gothitelle
+Solosis
+Duosion
+Reuniclus
+Ducklett
+Swanna
+Vanillite
+Vanillish
+Vanilluxe
+Deerling
+Sawsbuck
+Emolga
+Karrablast
+Escavalier
+Foongus
+Amoonguss
+Frillish
+Jellicent
+Alomomola
+Joltik
+Galvantula
+Ferroseed
+Ferrothorn
+Klink
+Klang
+Klinklang
+Tynamo
+Eelektrik
+Eelektross
+Elgyem
+Beheeyem
+Litwick
+Lampent
+Chandelure
+Axew
+Fraxure
+Haxorus
+Cubchoo
+Beartic
+Cryogonal
+Shelmet
+Accelgor
+Stunfisk
+Mienfoo
+Mienshao
+Druddigon
+Golett
+Golurk
+Pawniard
+Bisharp
+Bouffalant
+Rufflet
+Braviary
+Vullaby
+Mandibuzz
+Heatmor
+Durant
+Deino
+Zweilous
+Hydreigon
+Larvesta
+Volcarona
+Cobalion
+Terrakion
+Virizion
+Tornadus
+Thundurus
+Reshiram
+Zekrom
+Landorus
+Kyurem
+Keldeo
+Meloetta (A)
+Meloetta (P)
+Genesect

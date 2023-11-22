@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Stack.LearnLinkedList.java&apos; to &apos;LearnLinkedListWithStack.java&apos;&#x0D;&#x0A;- Original project: &apos;Data Structure and Algorithms&apos;&#x0D;&#x0A;- Original element: &apos;Stack.LearnLinkedList.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Stack.LearnLinkedListWithStack.java&apos;" description="Rename compilation unit &apos;LearnLinkedList.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;Stack{LearnLinkedList.java" name="LearnLinkedListWithStack.java" references="false" stamp="1662599969997" version="1.0"/>
+</session>

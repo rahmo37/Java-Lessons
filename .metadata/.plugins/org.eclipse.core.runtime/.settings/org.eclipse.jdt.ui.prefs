@@ -1,0 +1,11 @@
+Refactoring.savealleditors=true
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.String"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="java.lang.String"/><rhs name\="Enum2.Day"/></lhs><lhs name\="java.lang.constant.ConstantDesc"><rhs name\="java.lang.String"/></lhs><lhs name\="java.awt.Paint"><rhs name\="java.awt.Color"/></lhs><lhs name\="java.awt.Transparency"><rhs name\="java.awt.Color"/></lhs><lhs name\="java.awt.Color"><rhs name\="java.awt.Color"/></lhs><lhs name\="java.lang.Enum"><rhs name\="Enum2.Day"/></lhs><lhs name\="Enum2.Day"><rhs name\="Enum2.Day"/></lhs><lhs name\="java.sql.Driver"><rhs name\="com.mysql.jdbc.Driver"/></lhs><lhs name\="javafx.scene.paint.Paint"><rhs name\="javafx.scene.paint.Color"/></lhs></history>
+content_assist_number_of_computers=13
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

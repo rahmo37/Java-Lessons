@@ -1,0 +1,38 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.StringTokenizer;
+
+public class ClubManagementSystem {
+
+	ArrayList<GeneralMembers> members = new ArrayList<>();
+
+	public void loadMembers() throws IOException {
+		FileReader fr = new FileReader("Members.txt");
+		BufferedReader br = new BufferedReader(fr);
+
+		String n = "";
+		String p = "";
+		String ns = "";
+
+		String eachLine = "";
+		StringTokenizer st;
+		eachLine = br.readLine();
+		while (eachLine != null) {
+			st = new StringTokenizer(eachLine, " ,");
+			while (st.hasMoreTokens()) {
+				n = st.nextToken();
+				p = st.nextToken();
+				ns = st.nextToken();
+				
+				members.add(new GeneralMembers(n, p, Integer.parseInt(ns)));
+				eachLine = br.readLine();
+			}
+			System.out.println(members.get(0).name + " " + members.get(0).phone + " " + members.get(0).noOfSemesters);
+		}
+		br.close();
+		System.out.println("Members data loaded!");
+	}
+}

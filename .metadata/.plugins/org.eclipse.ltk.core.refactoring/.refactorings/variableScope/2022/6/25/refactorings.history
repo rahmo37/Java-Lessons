@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;variableScope.diceRoller&apos; to &apos;diceRoller1&apos;&#x0D;&#x0A;- Original project: &apos;variableScope&apos;&#x0D;&#x0A;- Original element: &apos;variableScope.diceRoller&apos;&#x0D;&#x0A;- Renamed element: &apos;variableScope.diceRoller1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;diceRoller&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;variableScope{diceRoller.java[diceRoller" matchStrategy="1" name="diceRoller1" qualified="false" references="true" similarDeclarations="false" stamp="1655352274180" textual="false" version="1.0"/>
+</session>

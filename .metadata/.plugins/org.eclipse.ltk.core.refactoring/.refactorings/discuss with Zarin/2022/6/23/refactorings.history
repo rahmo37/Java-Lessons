@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;JOptionPane.java&apos; to &apos;JOptionpane.java&apos;&#x0D;&#x0A;- Original project: &apos;discuss with Zarin&apos;&#x0D;&#x0A;- Original element: &apos;JOptionPane.java&apos;&#x0D;&#x0A;- Renamed element: &apos;JOptionpane.java&apos;" description="Rename compilation unit &apos;JOptionPane.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{JOptionPane.java" name="JOptionpane.java" references="false" stamp="1654150860984" version="1.0"/>
+</session>

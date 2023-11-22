@@ -1,0 +1,99 @@
+package design;
+
+import java.awt.Container;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author ASUS
+ */
+public class AdminPanel extends JFrame {
+
+	// variable's declearation
+	private ImageIcon icon;
+	private JLabel heading;
+	private Container c;
+	private Font f;
+
+	private JButton noticeButton;
+	private JButton alumniButton;
+	private JButton memberButton;
+	private JButton eventButton;
+
+	// Default Constructor
+	public AdminPanel() {
+		setTitle("ADMIN PANEL");
+		setBounds(500, 100, 800, 800); // setsize + set location;
+		iniComp();
+		setResizable(false);
+		setVisible(true);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		System.out.println("Admin Panel");
+	}
+
+	public void iniComp() {
+		icon = new ImageIcon("download.jpg"); // icon
+		this.setIconImage(icon.getImage());
+		c = this.getContentPane();
+		c.setLayout(null);
+		f = new Font("Times New Roman", Font.HANGING_BASELINE, 20);
+		formatLabels();
+		c.add(heading);
+		formatButton();
+		c.add(noticeButton);
+		c.add(alumniButton);
+		c.add(memberButton);
+		c.add(eventButton);
+	}
+
+	public void formatLabels() {
+		heading = new JLabel();
+		heading.setText("WELCOME TO ADMIN PANEL");
+		heading.setBounds(220, 60, 500, 20);
+		heading.setFont(f);
+	}
+
+	public void formatButton() {
+		noticeButton = new JButton(new ImageIcon("userIcon.jpg"));
+		noticeButton.setText("Create Update or Remove Notice");
+		noticeButton.setVerticalTextPosition(JButton.BOTTOM);
+		noticeButton.setHorizontalTextPosition(JButton.CENTER);
+		noticeButton.setBounds(80, 200, 200, 200);
+		noticeButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Notice");
+			}
+		});
+
+		alumniButton = new JButton(new ImageIcon("admin.jpg"));
+		alumniButton.setBounds(500, 200, 200, 200);
+		alumniButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Alumni");
+			}
+		});
+
+		memberButton = new JButton(new ImageIcon("userIcon.jpg"));
+		memberButton.setBounds(80, 500, 200, 200);
+		memberButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Member");
+			}
+		});
+
+		eventButton = new JButton(new ImageIcon("userIcon.jpg"));
+		eventButton.setBounds(500, 500, 200, 200);
+		eventButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Event");
+			}
+		});
+	}
+}

@@ -1,0 +1,27 @@
+
+public class SuffolkResident extends Student{
+	public SuffolkResident() {
+		this("", "", "", 0);
+	}
+
+	public SuffolkResident(String firstName, String lastName, String grade, int credits) {
+		super(firstName, lastName, grade, credits);
+	}
+	public int getTuition() 
+	{
+		if (getCredits() <= 12) 
+		{
+			return (150 * getCredits());
+		}
+		else {
+			return 1800;
+		}
+	}
+	
+	@Override
+	public String getTuitionString()
+	{
+		return "Tuition: $" + getTuition();
+	}
+
+}

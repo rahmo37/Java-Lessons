@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JavaDB&apos; to &apos;JavaDBMySql&apos;" description="Rename resource &apos;JavaDB&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/JavaDB" name="JavaDBMySql" stamp="1667540007938" updateReferences="true"/>
+</session>
